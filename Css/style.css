@@ -5,7 +5,7 @@ body{
     background: url('../Assets/background.jpg');
 }
 .cont{
-    height: 100%;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -21,10 +21,13 @@ h1, h2{
     font-style: normal;
 }
 p{
+    margin: 0px !important;
+    margin-bottom: 5px !important; 
+    line-height: 20px;
     max-width: 450px;
 }
 .FlorCont{
-    height: 550px;
+    height: 525px;
     background-size: cover !important;
     background-repeat: none !important;
     width: 500px;
@@ -43,9 +46,9 @@ button:hover{
     background: rgba(247, 215, 8, 0.54);
 }
 .contA{
-    height: 100%;
+    height: auto;
     border-radius: 10px;
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 50px;
     right: 50px;
@@ -219,8 +222,11 @@ button:hover{
   
   
 @media (max-width:800px){
-    body{
+    .contA{
         
+    position: static;
+    }
+    body{        
     background-size: cover;
     }
 }
