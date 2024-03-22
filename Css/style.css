@@ -224,6 +224,21 @@ button:hover{
     }
 }
 
+@media (max-width:700px){
+    
+    .FlorCont{
+        width: 450px;
+        height: 550px;
+    }
+    }
+    
+@media (max-width:600px){
+    
+    .FlorCont{
+        width: 400px;
+        height: 550px;
+    }
+    }
 
 .dashed {
     --b: 5px;
