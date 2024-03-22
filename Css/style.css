@@ -6,12 +6,12 @@ body{
 }
 .cont{
     height: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 40px;
+    padding: 30px;
 }
 hr{
     width: 80%;
@@ -50,6 +50,7 @@ button:hover{
     left: 50px;
     right: 50px;
     bottom: 50px;
+    padding: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     background: rgba(235, 235, 233, 0.8);
@@ -239,7 +240,14 @@ button:hover{
         height: 550px;
     }
     }
-
+    
+    @media (max-width:500px){
+    
+        .FlorCont{
+            width: 90%;
+            height: 550px;
+        }
+        }
 .dashed {
     --b: 5px;
     /* border thickness */
